@@ -458,4 +458,41 @@ header {
     text-align: center;
 }
 
-
+/* section-price */
+.section-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.section-price--item {
+    flex: 1;
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.section-price--item-name {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+.section-price--item-money {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.section-price--item-period {
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 20px;
+}
+.section-price--item-point {
+    font-size: 12px;
+}
+.button--dark {
+    background-color: #000;
+}
+.button--dark:hover {
+    background-color: #B28756;
+}
