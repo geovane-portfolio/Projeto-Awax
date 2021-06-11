@@ -577,3 +577,130 @@ header {
 .section-premium .pointer.active {
     background-color: #B28756;
 }
+
+/* section-facts */
+.section-facts {
+    display: flex;
+}
+.section-fact {
+    flex: 1;
+    text-align:center;
+    padding: 20px;
+}
+.section-fact h3 {
+    font-size: 45px;
+    color: #B28756;
+}
+.section-fact-line {
+    width: 20px;
+    border-bottom: 2px solid #B28756;
+    margin: auto;
+}
+.section-fact h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.section-facts p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
+
+
+/* section-share */
+.section-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #999;
+}
+.section-share--legend {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.section-share--legend img {
+    margin-right: 10px;
+}
+.section-share--item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.section-share--item h4 {
+    font-weight: 600;
+    font-size: 10px;
+    color:#999;
+}
+.section-share--legend h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color:#999;
+}
+.section-share--icon img{
+    height: 12px;
+    
+}
+.section-share--icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #666;
+}
+
+.section-share--icon.twitter {
+    background-color: #34c5f0;
+}
+.section-share--icon.linkedin {
+    background-color: #0e76a8;
+}
+.section-share--icon.facebook {
+    background-color: #336297;
+}
+.section-share--icon.googleplus {
+    background-color: #e74237;
+}
+.section-share--icon.pinterest {
+    background-color: #b71c29;
+}
+
+/* section-contact */
+.section-contact {
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+.section-contact input[type=text], 
+.section-contact textarea {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    outline: 0;
+}
+.section-contact textarea {
+    height: 100px;
+    resize: none;
+}
+.section-contact--split {
+    display: flex;
+}
+.section-contact--split input:first-child {
+    margin-right: 20px;
+}
+.section-contact input.button {
+    border: transparent;
+}
+
