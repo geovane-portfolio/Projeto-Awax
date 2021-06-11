@@ -689,6 +689,7 @@ header {
     background-color: transparent;
     border-bottom: 1px solid #ccc;
     outline: 0;
+    color: #333;
 }
 .section-contact textarea {
     height: 100px;
@@ -728,6 +729,11 @@ header {
     align-items: center;
     color: #999;
     margin-bottom: 10px;
+}
+.section-map--info-item a {
+    text-decoration: none;
+    color: #999;
+
 }
 .section-map--info-item-img {
     width: 30px;
