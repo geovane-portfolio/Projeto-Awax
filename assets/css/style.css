@@ -113,6 +113,34 @@ header {
 .banner a:hover {
     color: #ccc;
 }
+
+/* Icon */
+.icon {
+    width: 100vw;
+    height: 20px;
+    position:absolute;
+    display: flex;
+}
+section .badge-ico {
+    background-color: #b78b5c;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(0 0 0 / 70%);
+}
+.badge-ico {
+    position: absolute;
+    right: 40px;
+    top: -30px;
+}
+.badge-ico img {
+    height: 35px;
+}
+
+
 /* POINTER */
 .banner .sliders-pointers {
     width: 100vw;
@@ -177,7 +205,69 @@ header {
 }
 
 
+/* FOOTER */
 
+footer {
+    background-color: #000;
+    padding: 10px;
+}
+.footer-area{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    color: #fff;
+    margin-top: 40px;
+}
+.footer-item {
+    flex: 1;
+}
+.footer-social {
+    display: flex;
+}
+.footer-social a {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.footer-social a:hover {
+    background-color: #B28756;
+}
+.footer-item.area2 p {
+    color: #999;
+    line-height: 20px;
+    font-size: 13px;
+    padding: 0 10px 10px 10px;
+}
+.footer-item.area3 form{
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+}
+.footer-item.area3 input {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    outline: 0;
+    color: #eee;
+    font-size: 14px;
+    text-align: center;
+}
+.footer-item.area3 .button {
+    border: transparent;
+    cursor: pointer;
+}
+.footer-item.area3 .button:hover {
+    color: #ccc;
+}
+
+/* ----------------------------------------------------------------------------------- */
 
 /* CSS ÁREAS ESPECIFICAS */
 
@@ -200,6 +290,9 @@ header {
 .section-aboutus--right img {
     width: 480px;
     box-shadow: 0px 5px 10px #333;
+}
+.section-aboutus .button:hover {
+    color: #ccc;
 }
 
 /* section-services */
@@ -261,6 +354,9 @@ header {
 }
 .section-projects--filters li:first-child {
     border-left: 0;
+}
+.section-projects .button:hover {
+    color: #ccc;
 }
 
 /* section-projects--photos */
@@ -342,7 +438,6 @@ header {
     color: #000;
     padding: 30px;
 }
-
 .section-team-area .sliders-pointers {
     margin-top: 30px;
     height: 20px;
@@ -703,6 +798,10 @@ header {
 }
 .section-contact input.button {
     border: transparent;
+    cursor: pointer;
+}
+.section-contact .button:hover {
+    color: #ccc;
 }
 
 /* section-map */
@@ -749,4 +848,28 @@ header {
 .section-map--info-item-img img {
     width: 15px;
     height: auto;
+}
+
+/* footer-icon */
+.icon-footer {
+    width: 100vw;
+    height: 20px;
+    position:absolute;
+    display: flex;
+}
+.badge-ico-foot {
+    background-color: #b78b5c;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(0 0 0 / 70%);
+    position: absolute;
+    left: 40px;
+    bottom: -45px;
+}
+.badge-ico-foot img {
+    height: 35px;
 }
