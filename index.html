@@ -7,6 +7,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu-opener").addEventListener("click", function(){
+                if(document.querySelector("nav").style.display =='flex') {
+                    document.querySelector("nav").style.display ='none';
+                } else {
+                    document.querySelector("nav").style.display ='flex';
+                }
+            });
+        };
+    </script>
+
 </head>
 <body>
 <header>
@@ -488,7 +501,7 @@
                 <div class="section-fact">
                     <h3>100</h3>
                     <div class="section-fact-line"></div>
-                    <h4>Exhibitions</h4>
+                    <h4>Exibitions</h4>
                     <p>Donec tincidunt cursus</p>
                 </div>
             </div>
