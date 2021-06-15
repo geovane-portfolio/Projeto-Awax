@@ -1032,15 +1032,22 @@ footer {
         border: 0;
         color: #B28756;
     }
+    section .badge-ico {
+         width: 40px;
+        height: 40px;
+    }
+    .badge-ico {
+        top: -780px;
+        right: 100px;
+    }
+    .badge-ico img {
+        height: 25px;
+    }
     .banner h1 {
         font-size: 30px;
     }
     .banner h2 {
         font-size: 17px;
-    }
-    .badge-ico{
-        top:-795px;
-        right: 100px;
     }
     .section-aboutus {
         flex-direction: column;
@@ -1204,8 +1211,14 @@ footer {
     }
     .badge-ico-foot{
         left: auto;
-        bottom:-260px;
+        bottom:-250px;
+        width: 40px;
+        height: 40px;
     }
+    .badge-ico-foot img {
+        height: 25px;
+    }
+
     .footer-area {
         flex-direction: column;
         justify-content: center;
