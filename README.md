@@ -6,7 +6,7 @@
 <img src="assets/Projeto-Awax-Desktop.png"/>
 
 
-<div style='display:flex;'>
+<div style="display:flex;">
 <img src="assets/Projeto-Awax-Tablet.png"/>
 <img src="assets/Projeto-Awax-Smartphone.jpg"/>
 </div>
