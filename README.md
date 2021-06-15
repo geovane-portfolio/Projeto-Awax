@@ -8,5 +8,5 @@
 
 <div style='display:flex;'>
 <img src="assets/Projeto-Awax-Tablet.png"/>
-<img src="assets/Projeto-Awax-Smartphone.jpg"/>
+<img src="assets/Projeto-Awax-Smartphone.png"/>
 </div>
