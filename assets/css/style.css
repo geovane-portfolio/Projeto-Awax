@@ -226,6 +226,7 @@ footer {
 }
 .footer-social {
     display: flex;
+    justify-content: center;
 }
 .footer-social a {
     display: flex;
@@ -275,6 +276,7 @@ footer {
 }
 .footer-copy {
     display: flex;
+    width: auto;
     color: #999;
     justify-content: center;
     margin-top: 50px;
