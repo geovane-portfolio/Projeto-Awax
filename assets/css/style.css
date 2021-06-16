@@ -103,6 +103,8 @@ header {
 }
 .button {
     display: inline-block;
+    text-align: center;
+    width: 170px;
     background-color: #B28756;
     color: #fff;
     text-transform: uppercase;
