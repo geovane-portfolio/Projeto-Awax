@@ -278,10 +278,14 @@ footer {
 }
 .footer-copy {
     display: flex;
-    width: auto;
     color: #999;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
+}
+.footer-copy p {
+    width: 100px;
+    text-align: center;
 }
 
 /* ----------------------------------------------------------------------------------- */
