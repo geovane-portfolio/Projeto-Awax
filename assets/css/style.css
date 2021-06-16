@@ -604,6 +604,7 @@ footer {
 }
 .button--dark {
     background-color: #000;
+    width: auto;
 }
 .button--dark:hover {
     background-color: #B28756;
