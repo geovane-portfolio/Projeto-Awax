@@ -1117,8 +1117,8 @@ footer {
         padding: 0 20px 0 20px;
     }
     .section-happyclients h4 {
-        width: 300px;
-        margin: auto;
+        text-align: center;
+        width: 240px;
     }
     .section-companies--area {
         flex-wrap: wrap;
